@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="HybridFramework">
+
+  <listeners>
+  	<listener class-name="com.TN.qa.listners.MyListners"></listener>
+  </listeners>	
+	
+  <test name="HFTestCases">
+    <classes>
+       <class name="com.TN.qa.testCases.RegisterTest"/>
+       <class name="com.TN.qa.testCases.LoginTest"/>
+       <class name="com.TN.qa.testCases.SearchProductTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
