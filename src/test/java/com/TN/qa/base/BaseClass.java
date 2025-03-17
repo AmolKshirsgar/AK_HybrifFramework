@@ -21,7 +21,6 @@ public class BaseClass
 	public BaseClass()
 	{
 		prop=new Properties();
-		
 		try 
 		{
 			FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\TN\\qa\\config\\config.properties");

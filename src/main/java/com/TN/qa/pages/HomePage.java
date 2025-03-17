@@ -9,11 +9,11 @@ public class HomePage
 {
 	public WebDriver driver;
 	
-	public HomePage(WebDriver driver)      	//create constructor
-	{
+	public HomePage(WebDriver driver)      						//create constructor
+	{	
 		this.driver=driver;
-		PageFactory.initElements(driver, this);				//here this specify parent class
-	// OR	PageFactory.initElements(driver, HomePage.class);  
+		PageFactory.initElements(driver, this);					//here this specify parent class
+// OR	PageFactory.initElements(driver, HomePage.class);  
 		
 	}
 	
