@@ -12,6 +12,8 @@ import com.TN.qa.pages.HomePage;
 import com.TN.qa.pages.RegisterPage;
 import com.TN.qa.utils.Utilities;
 
+//this is to check pull
+
 public class RegisterTest extends BaseClass
 {
 	public WebDriver driver;
